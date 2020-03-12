@@ -51,6 +51,7 @@ export default function App() {
     const [open2, setOpen2] = useState(false);
     return (
         <div id="start" className="tausta text-center">
+            <p>tesst</p>
             <Button href="#start" className="  ylos">^^^</Button>
             <Navbar expand="lg" className="tausta">
                 <Navbar.Brand >Jesse Huttunen</Navbar.Brand>
