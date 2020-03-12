@@ -2,7 +2,7 @@
   "name": "reacti",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jessehuttunen.github.io",
+  "homepage": "https://jessehuttunen.github.io/portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.12.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
@@ -33,6 +33,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+      "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
