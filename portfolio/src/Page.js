@@ -53,7 +53,7 @@ export default function App() {
         <div id="start" className="tausta text-center">
             <Button href="#start" className="  ylos">^^^</Button>
             <Navbar expand="lg" className="tausta">
-                <Navbar.Brand >Jesse Huttunen</Navbar.Brand>
+                <Navbar.Brand  href="https://jessehuttunen.github.io/portfolio">Jesse Huttunen</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
